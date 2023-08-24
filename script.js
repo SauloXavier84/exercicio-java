@@ -55,7 +55,7 @@ function convertValues() {
             currencyValueConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL"
-        }).format(inputCurrencyValue / currencyValueToConvert)// verificar
+        }).format(inputCurrencyValue / realToday)// verificar
     }
     if (currencySelectConverted.value == "dolar-1") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
@@ -67,20 +67,20 @@ function convertValues() {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "EUR"
-        }).format(inputCurrencyValue / currencyValueToConvert)// verificar
+        }).format(inputCurrencyValue / euroToay)// verificar
     }
     if (currencySelectConverted.value == "libra-1") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "GBP"
-        }).format(inputCurrencyValue / currencyValueToConvert)// verificar
+        }).format(inputCurrencyValue / libraToday)// verificar
     }
     if (currencySelectConverted.value == "bitcoin-1") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "BTC",
             minimumFractionDigits: 8
-        }).format(inputCurrencyValue / currencyValueToConvert)// verificar
+        }).format(inputCurrencyValue / bitCoinToday)// verificar
     }
 }
 
