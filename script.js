@@ -21,34 +21,39 @@ function convertValues() {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL"
-        }).format(inputCurrencyValue) 
+        }).format(inputCurrencyValue)// verificar
     }
     /*if (currencySelectConvert.value == "dolar") {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
-        }).format(inputCurrencyValue) 
+        }).format(inputCurrencyValue)// verificar
     }
     if (currencySelectConvert.value == "euro") {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "EUR"
-        }).format(inputCurrencyValue) 
+        }).format(inputCurrencyValue)// verificar
     }
 
     if (currencySelectConvert.value == "libra") {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "GBP",
-        }).format(inputCurrencyValue)
+        }).format(inputCurrencyValue)// verificar
     }
     if (currencySelectConvert.value == "bitcoin") {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "BTC",
             minimumFractionDigits: 8
+<<<<<<< HEAD
         }).format(inputCurrencyValue)
     }*/
+=======
+        }).format(inputCurrencyValue)// verificar
+    }
+>>>>>>> bc899bb22ca424a7d73958e2de7d4d4fe8d3e6fc
 
     /*if (currencySelectConverted.value == "real-1") {
             currencyValueConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
